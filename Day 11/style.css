@@ -1,0 +1,30 @@
+header {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #ACBCFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    background-color: #555;
+}
