@@ -1,0 +1,25 @@
+/* FontXpress - CSS Font, Units, Cursor, and !important Assignment */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #526D82;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 1.2rem !important; /* Override font size using !important */
+  cursor: pointer;
+  text-align: center;
+}
