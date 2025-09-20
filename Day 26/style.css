@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px; 
+    text-align: center;
+    list-style: none;
+}
