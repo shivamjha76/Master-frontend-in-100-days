@@ -1,0 +1,39 @@
+/* VisualFX - CSS Shadow Effect, Opacity/Transparency, Filter Property, and Image Sprites Assignment */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ACBCFF;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 50px rgba(0, 0, 0, 0.3); /* Apply box shadow */
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .paragraph {
+    opacity: 0.7; /* Adjust opacity */
+    color: #DB005B;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    filter: grayscale(30%); /* Apply filter effect */
+    /* Use CSS sprites for different image states */
+    background-image: url(sprites.jpg);
+    background-position: 0 0; /* Normal state */
+  }
+  
+  .image:hover {
+    background-position: 0 -200px; /* Hover state */
+  }
