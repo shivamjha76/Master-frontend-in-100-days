@@ -1,0 +1,78 @@
+/* WebElements - CSS List, Table, Variable, and Function Assignment */
+
+:root {
+  --main-color: #2980b9;
+  --text-color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--main-color);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.list-section {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  list-style-type: square
+  ;
+}
+
+.custom-list li {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  padding: 5px 0;
+}
+
+.table-section {
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: var(--main-color);
+  font-weight: bold;
+  color: #fff;
+}
+
+.function-section {
+  padding: 20px;
+}
+
+.footer {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(67,19,140,1) 100%);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.footer-text {
+  margin: 0;  
+  text-align: center;
+}
